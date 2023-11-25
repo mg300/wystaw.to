@@ -1,20 +1,19 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
 import Foot from "./Footer";
-import SearchPanel from './Searchpanel';
+import SearchPanel from "./Searchpanel";
+import Contact from "./components/Contact";
 
 function App() {
-  const handleSearch = (searchTerm) => {
-
- 
-  };
+  const handleSearch = (searchTerm) => {};
 
   return (
     <div>
-      <Foot/>
+      <Foot />
       <div>
-        <SearchPanel onSearch={handleSearch} /> 
+        <SearchPanel onSearch={handleSearch} />
       </div>
+      <Contact></Contact>
     </div>
   );
 }
