@@ -1,0 +1,24 @@
+#topBar {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topBar img {
+    max-height: 90px; /* Dostosuj wysokość logo według potrzeb */
+}
+
+#topBar button {
+    margin-left: 10px;
+    background-color: #ffaf57;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+#topBar button:hover {
+    background-color: #ff6009;
+}
