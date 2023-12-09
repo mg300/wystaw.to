@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css'; // Zaimportowanie pliku ze stylami CSS
-import logo from '../src/images/Logow.png'
-import Facebook from '../src/images/Facebook.png'
-import Instagram from '../src/images/Instagram.png'
-import Linkedin from '../src/images/Linkedin.png'
+import logo from '../images/Logow.png'
+import Facebook from '../images/Facebook.png';
+import Instagram from '../images/Instagram.png';
+import Linkedin from '../images/Linkedin.png';
 function Foot() {
     const facebookLink = 'https://www.facebook.com/twojprofil';
     const instagramLink = 'https://www.instagram.com/twojprofil';
