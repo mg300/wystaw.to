@@ -13,7 +13,9 @@ const TopBar = () => {
         </Link>
       </div>
       <div className="right">
-        <button>Dodaj ogłoszenie</button>
+        <Link to="/addproduct">
+          <button>Dodaj ogłoszenie</button>
+        </Link>
         <button>Wiadomości</button>
         <Link to="/auth">
           {" "}

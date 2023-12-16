@@ -8,6 +8,7 @@ import Product from "./components/product";
 import Categories from "./components/Categories";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthSection from "./components/AuthComponents/AuthSection";
+import AddProduct from "./components/AddProduct";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,16 @@ const router = createBrowserRouter([
       <>
         <TopBar />
         <AuthSection />
+        <Foot />
+      </>
+    ),
+  },
+  {
+    path: "/addproduct",
+    element: (
+      <>
+        <TopBar />
+        <AddProduct />
         <Foot />
       </>
     ),
