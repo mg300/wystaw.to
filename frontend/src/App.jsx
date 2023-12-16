@@ -8,13 +8,11 @@ import Product from "./components/product";
 import Categories from "./components/Categories";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthSection from "./components/AuthComponents/AuthSection";
-<<<<<<< Updated upstream
 import Messagebox from "./components/Messagebox";
 import AddProduct from "./components/AddProduct";
+import UserPanel from "./components/Userpanel";
+import UserAds from "./components/UserAds";
 
-=======
-import UserAds from './components/UserAds';
->>>>>>> Stashed changes
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,7 +25,6 @@ const router = createBrowserRouter([
             <SearchPanel />
           </div>
           <AdvertisingBar />
-
         </div>
         <div class="container">
           <Product source={require("./images/przyklad.jpg")} title="Dacia Logan" price={24099} address="Warszawa" />
@@ -53,18 +50,18 @@ const router = createBrowserRouter([
       </>
     ),
   },
-<<<<<<< Updated upstream
   {
     path: "/message",
     element: (
       <>
-       <TopBar />
-       <Categories />
-       <Messagebox/>
-       <Foot />
-       </>
+        <TopBar />
+        <Categories />
+        <Messagebox />
+        <Foot />
+      </>
     ),
-  },{
+  },
+  {
     path: "/addproduct",
     element: (
       <>
@@ -74,18 +71,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
-=======
-    {
-        path: "/ads",
-        element: (
-            <>
-                <TopBar />
-               <UserAds/>
-                <Foot />
-            </>
-        ),
-    },
->>>>>>> Stashed changes
+  {
+    path: "/userpanel",
+    element: (
+      <>
+        <TopBar />
+        <UserAds />
+        <Foot />
+      </>
+    ),
+  },
 ]);
 
 function App() {
