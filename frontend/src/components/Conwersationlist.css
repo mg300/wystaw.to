@@ -1,0 +1,39 @@
+.conversation-list {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .conversation-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .conversation-info {
+    flex: 1;
+  }
+  
+  h3,
+  p {
+    margin: 5px 0;
+  }
+  
+  span {
+    font-size: 12px;
+    color: #888;
+  }

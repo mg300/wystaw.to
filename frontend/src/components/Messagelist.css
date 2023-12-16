@@ -1,0 +1,35 @@
+.app {
+    display: flex;
+  }
+  
+
+  .conversation-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Dodaj przewijanie dla obszaru wiadomości */
+    max-height: calc(100vh - 40px); /* Ustaw maksymalną wysokość, aby wypełnić dostępną przestrzeń */
+    background-color: #c3baba;
+  }
+  
+  .message-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .message-list .message {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+  }
+  
+  .message-list .message p {
+    margin: 5px 0;
+  }
+  
+  .message-list .message .timestamp {
+    font-size: 12px;
+    color: #888;
+  }
+  

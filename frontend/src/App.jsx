@@ -8,6 +8,7 @@ import Product from "./components/product";
 import Categories from "./components/Categories";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthSection from "./components/AuthComponents/AuthSection";
+import Messagebox from "./components/Messagebox";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,17 @@ const router = createBrowserRouter([
       <>
         <TopBar />
         <AuthSection />
+        <Foot />
+      </>
+    ),
+  },
+  {
+    path: "/message",
+    element: (
+      <>
+       <TopBar />
+       <Categories />
+       <Messagebox/>
         <Foot />
       </>
     ),

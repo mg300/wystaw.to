@@ -1,0 +1,31 @@
+.user-panel {
+  background-color: #7cd5f5;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  min-height: 60vh; /* Ustawienie minimalnej wysokości na całą wysokość widoku */
+  box-sizing: border-box;
+  overflow-y: auto; /* Dodanie przewijania dla długich list użytkowników */
+}
+
+.user-panel h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-panel li {
+  cursor: pointer;
+  padding: 8px 0;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.user-panel li:hover {
+  background-color: #ffffff;
+}
