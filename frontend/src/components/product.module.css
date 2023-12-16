@@ -1,0 +1,28 @@
+.container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    border: 1px solid gray;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  .title {
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+
+  .info {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .address {
+    font-weight: 100;
+    font-size: 0.7rem;
+  }
+  .img {
+      width: 15rem;
+      height: 15rem;
+      object-fit: cover;
+  }
