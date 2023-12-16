@@ -1,0 +1,19 @@
+/* UserAds.css */
+.ad-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 100px 0;
+    margin-left: 200px ;
+    height: 200px;
+}
+
+.edit-button {
+    background-color: #ff8c00; /* Zielony kolor */
+    color: #fff; /* Biały kolor tekstu */
+    margin-right: 5px;
+}
+
+.delete-button {
+    background-color: #f44336; /* Czerwony kolor */
+    color: #fff; /* Biały kolor tekstu */
+}
