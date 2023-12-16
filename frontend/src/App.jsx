@@ -9,6 +9,7 @@ import Categories from "./components/Categories";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AuthSection from "./components/AuthComponents/AuthSection";
 import Messagebox from "./components/Messagebox";
+import AddProduct from "./components/AddProduct";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,14 @@ const router = createBrowserRouter([
        <TopBar />
        <Categories />
        <Messagebox/>
+       </>
+    ),
+  },{
+    path: "/addproduct",
+    element: (
+      <>
+        <TopBar />
+        <AddProduct />
         <Foot />
       </>
     ),
