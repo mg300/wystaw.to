@@ -13,21 +13,17 @@ function App() {
 
   return (
     <div>
-      <Foot />
       <div>
         <div>
           <TopBar />
           <SearchPanel onSearch={handleSearch} />
         </div>
-        <Contact></Contact>
-        <AuthSection></AuthSection>
         <div>
           <AdvertisingBar />
         </div>
         <div>
           <AdvertisingBar />
         </div>
-        <Foot />
       </div>
       <div class="container">
         <Product source={require("./images/przyklad.jpg")} title="Dacia Logan" price={24099} address="Warszawa" />
@@ -35,8 +31,7 @@ function App() {
         <Product source={require("./images/przyklad3.jpg")} title="Koparka LEGO" price={2500} address="Opole" />
         <Product source={require("./images/przyklad4.jpg")} title="Zegarek Omega" price={35800} address="Poznań" />
       </div>
-      <Contact></Contact>
-      <AuthSection></AuthSection>
+      <Foot />
     </div>
   );
 }
