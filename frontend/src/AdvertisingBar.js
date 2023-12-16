@@ -11,9 +11,9 @@ const AdvertisingBar = () => {
     return (
         <>
             {isBannerVisible && (
-                <div id="advertisingBar">
-                    <p>Specjalna oferta! Kup teraz i oszczędź!</p>
-                    <button id="closeAdvertisingBar" onClick={handleCloseBanner}>
+                <div id="advertisingBar" className="fade-in">
+                    <p>Specjalna oferta! Dodanie ogłoszenia za darmo do końca roku!</p>
+                    <button id="closeAdvertisingBar" onClick={handleCloseBanner} className="close-button">
                         Zamknij
                     </button>
                 </div>

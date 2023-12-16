@@ -1,0 +1,24 @@
+/* components/Categories.css */
+#categories {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#categories button {
+    margin-right: 10px;
+    background-color: #ff8c00;
+    color: #f0ffff;
+
+}
+
+.category-icon {
+    width: 50px; /* Dostosuj rozmiar ikon */
+    height: 40px;
+    margin-right: 5px;
+}
+#categories button:hover {
+    background-color: #ff6009;
+}

@@ -1,18 +1,41 @@
+/* AdvertisingBar.css */
 #advertisingBar {
-    background-color: #ffd700;
-    padding: 15px;
-    text-align: center;
+    background-color: #f0ffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #closeAdvertisingBar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    background-color: #ff8c00;
+    color: #f0ffff;
     border: none;
+    padding: 5px 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#closeAdvertisingBar:hover {
+    background-color: #ff6009;
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
