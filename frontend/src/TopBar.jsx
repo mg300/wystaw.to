@@ -16,7 +16,9 @@ const TopBar = () => {
         <Link to="/addproduct">
           <button>Dodaj ogłoszenie</button>
         </Link>
+        <Link to="/message">
         <button>Wiadomości</button>
+        </Link>
         <Link to="/auth">
           {" "}
           <button>Zaloguj</button>

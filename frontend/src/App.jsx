@@ -55,6 +55,7 @@ const router = createBrowserRouter([
        <TopBar />
        <Categories />
        <Messagebox/>
+       <Foot />
        </>
     ),
   },{
